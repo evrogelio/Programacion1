@@ -3,7 +3,7 @@ import path from 'path';
 import matter from 'gray-matter';
 import { marked } from 'marked';
 
-const vaultPath = path.resolve('notas');
+const vaultPath = path.resolve('static/notas');
 
 function slugify(text: string): string {
   return text
