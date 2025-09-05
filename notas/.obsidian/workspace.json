@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mapa Curricular.md",
-                "mode": "preview",
+                "file": "Sesión 2.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Mapa Curricular"
+              "title": "Sesión 2"
             }
           },
           {
@@ -42,7 +42,7 @@
               "type": "markdown",
               "state": {
                 "file": "Sesión 1.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
@@ -63,7 +63,8 @@
               "title": "Referencias Útiles"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -211,12 +212,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "eefd45ef92cbabfd",
+  "active": "5ba4fbc36213cc87",
   "lastOpenFiles": [
-    "Referencias Útiles.md",
-    "Sesión 1.md",
+    "Sesión 4.md",
     "Semana 1.md",
     "Mapa Curricular.md",
+    "Referencias Útiles.md",
+    "Sesión 3.md",
+    "Sesión 2.md",
+    "Sesión 1.md",
     "Bonita.md",
     "presentations/src/routes/+page.svelte~",
     "presentations/src/routes/+page.server.ts~",

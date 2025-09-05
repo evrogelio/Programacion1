@@ -1,1 +1,0 @@
-export { default as component } from "../../../../src/routes/semana-1/+page.svelte";

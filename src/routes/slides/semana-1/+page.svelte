@@ -20,7 +20,7 @@
 </script>
 
 <svelte:head>
-  <title>Semana 1</title>
+  <title>LCT1 WebDev - Semana 1</title>
 </svelte:head>
 
 <div class="reveal">
@@ -429,6 +429,176 @@
           <li>Una imagen representativa <code>&lt;img&gt;</code></li>
           <li>Pie de página con tu nombre <code>&lt;footer&gt;</code></li>
         </ul>
+      </section>
+
+      <section>
+        <h2>Personalización de VS Code</h2>
+        <p>
+          Mejora tu experiencia de trabajo con configuraciones básicas y útiles
+        </p>
+      </section>
+
+      <section>
+        <h2>Cambiar el tema de color</h2>
+        <ul>
+          <li>Abre la paleta de comandos con <code>Ctrl + Shift + P</code></li>
+          <li>Escribe <code>Color Theme</code> y selecciona uno</li>
+          <li>
+            Explora temas claros u oscuros como <em>GitHub Light</em> o
+            <em>Monokai</em>
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Activar autoformato con Prettier</h2>
+        <ul>
+          <li>
+            Instala la extensión <strong>Prettier - Code formatter</strong>
+          </li>
+          <li>Activa <code>Format On Save</code> en configuración</li>
+          <li>Selecciona Prettier como formatter por defecto</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>¿Qué hace Prettier?</h2>
+        <ul>
+          <li>Corrige indentación</li>
+          <li>Cierra etiquetas mal escritas</li>
+          <li>Hace tu HTML más legible automáticamente</li>
+          <li><em>No cambia el funcionamiento del código</em></li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Extensiones recomendadas</h2>
+        <ul>
+          <li>
+            <strong>Live Server</strong>: actualiza el navegador al guardar
+          </li>
+          <li>
+            <strong>Auto Close Tag</strong>: cierra etiquetas automáticamente
+          </li>
+          <li>
+            <strong>Auto Rename Tag</strong>: renombra etiquetas de apertura y
+            cierre al mismo tiempo
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>¿Por qué es importante?</h2>
+        <ul>
+          <li>Escribir código más claro y sin errores</li>
+          <li>Ahorrar tiempo en tareas repetitivas</li>
+          <li>Crear hábitos de escritura profesionales desde el inicio</li>
+        </ul>
+      </section>
+      <section>
+        <h2>Tablas en HTML</h2>
+        <p>Una tabla organiza datos en filas y columnas.</p>
+        <p>
+          Se usa para mostrar información estructurada, no para diseñar la
+          página.
+        </p>
+      </section>
+
+      <section>
+        <h2>Estructura básica de una tabla</h2>
+        <ul>
+          <li><code>&lt;table&gt;</code>: contenedor principal</li>
+          <li><code>&lt;tr&gt;</code>: fila (table row)</li>
+          <li><code>&lt;th&gt;</code>: celda de encabezado (table header)</li>
+          <li><code>&lt;td&gt;</code>: celda de datos (table data)</li>
+        </ul>
+      </section>
+      <section>
+        <h2>Ejemplo de código</h2>
+        <pre><code class="language-html">
+      <table>
+        <thead>
+          <tr>
+            <th>Tema</th>
+            <th>Favorito</th>
+            <th>No me gusta</th>
+            <th>Me llama la atención</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Música</td>
+            <td>Rock</td>
+            <td>Reguetón</td>
+            <td>Jazz</td>
+          </tr>
+        </tbody>
+      </table>
+        </code></pre>
+      </section>
+
+      <section>
+        <h2>Cómo se ve en el navegador</h2>
+        <table border="1">
+          <thead>
+            <tr>
+              <th>Tema</th>
+              <th>Favorito</th>
+              <th>No me gusta</th>
+              <th>Me llama la atención</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Música</td>
+              <td>Rock</td>
+              <td>Reguetón</td>
+              <td>Jazz</td>
+            </tr>
+          </tbody>
+        </table>
+        <p>
+          <small
+            >*Nota: el borde solo se muestra aquí para que se vea claro.</small
+          >
+        </p>
+      </section>
+
+      <section>
+        <h2>Errores comunes</h2>
+        <ul>
+          <li>
+            Usar <code>&lt;td&gt;</code> en lugar de <code>&lt;th&gt;</code> en la
+            primera fila
+          </li>
+          <li>Olvidar cerrar una etiqueta</li>
+          <li>Colocar etiquetas fuera de orden</li>
+        </ul>
+      </section>
+      <section>
+        <h2>Actividad aplicada</h2>
+        <p>Agrega una tabla en tu archivo con la siguiente estructura:</p>
+
+        <div class="flex gap-8 justify-center">
+          <div>
+            <h4>Columnas</h4>
+            <ul>
+              <li><strong>Tema</strong></li>
+              <li><strong>Favorito</strong></li>
+              <li><strong>No me gusta</strong></li>
+              <li><strong>Me llama la atención</strong></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Filas (temas)</h4>
+            <ul>
+              <li>Música</li>
+              <li>Videojuego</li>
+              <li>Comida</li>
+              <li>Libro o película</li>
+            </ul>
+          </div>
+        </div>
       </section>
     </section>
   </div>
