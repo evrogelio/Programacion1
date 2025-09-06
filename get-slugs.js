@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 
-const notesPath = path.resolve('src/lib/notas');
+const notesPath = path.resolve('./notas');
 
 function slugify(title) {
   return title

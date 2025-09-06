@@ -1,7 +1,6 @@
 import adapter from '@sveltejs/adapter-auto';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 import { getAllSlugs } from './get-slugs.js';
-console.log(getAllSlugs)
 const entries = getAllSlugs();
 
 /** @type {import('@sveltejs/kit').Config} */
