@@ -1,6 +1,8 @@
 import { getAllNotes } from '$lib/notas/loader.server';
 import type { LayoutServerLoad } from './$types';
 
+export const prerender = true;
+
 export const load: LayoutServerLoad = () => {
   const notes = getAllNotes();
 
