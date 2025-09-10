@@ -6,7 +6,7 @@ tags:
 | Semana | Tema central                                      | Sesiones                                                                                                                                     |
 | ------ | ------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1      | [[Semana 1\|**Introducción + HTML básico**]]      | 1) ¿Qué es la web y HTML? <br>2) Estructura y etiquetas comunes <br>3) Imágenes y texto <br>4) Listas y tablas                               |
-| 2      | [[Semana 2\|**HTML: Enlaces + estilos básicos**]] | 1) Introducción a CSS inline <br>2) Colores, fuentes y tamaños <br>3) Enlaces y navegación <br>4) Actividad aplicada (mini póster o tarjeta) |
+| 2      | [[Semana 2\|**HTML: Enlaces + estilos básicos**]] | 1) Introducción a CSS inline : Colores, fuentes y tamaños <br>2) Enlaces y navegación 3) Botones y formularios                               |
 | 3      | **CSS: Fundamentos y selectores**                 | 1) Sintaxis y formas de aplicar CSS <br>2) Selectores, clases e IDs <br>3) Unidades y más propiedades <br>4) Práctica guiada                 |
 | 4      | **Control de versiones con Git + GitHub**         | 1) ¿Qué es Git? <br>2) Commits y ramas <br>3) GitHub y flujo básico <br>4) Práctica versionando HTML                                         |
 | 5      | **Evaluación 1 + Box model y layout**             | 1) **Presentación de la evaluación** (HTML + CSS) <br>2) Box model <br>3) Display y posicionamiento <br>4) Introducción a Flexbox            |
