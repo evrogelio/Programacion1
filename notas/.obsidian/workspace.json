@@ -13,26 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Semana 2.md",
-                "mode": "preview",
+                "file": "Sesión 7.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Semana 2"
+              "title": "Sesión 7"
             }
           },
           {
-            "id": "a33e47d367574bfd",
+            "id": "ddeafc520e19fad4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mapa Curricular.md",
+                "file": "CheatSheet de Etiquetas HTML.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Mapa Curricular"
+              "title": "CheatSheet de Etiquetas HTML"
             }
           },
           {
@@ -198,18 +198,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a33e47d367574bfd",
+  "active": "ddeafc520e19fad4",
   "lastOpenFiles": [
-    "Sesión 5.md",
-    "Sesión 7.md",
-    "Semana 2.md",
-    "Semana 1.md",
-    "Sesión 1.md",
-    "Sesión 2.md",
-    "Mapa Curricular.md",
-    "Untitled.md",
-    "Sesión 4.md",
     "Referencias Útiles.md",
+    "CheatSheet de Etiquetas HTML.md",
+    "Sesión 7.md",
+    "Sesión 5.md",
+    "Sesión 8.md",
+    "Semana 2.md",
+    "Sesión 1.md",
+    "Mapa Curricular.md",
+    "Semana 1.md",
+    "Sesión 2.md",
+    "Sesión 4.md",
     "Sesión 3.md",
     "Bonita.md",
     "presentations/src/routes/+page.svelte~",
