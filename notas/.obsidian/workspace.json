@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sesión 7.md",
+                "file": "Sesión 11.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Sesión 7"
+              "title": "Sesión 11"
             }
           },
           {
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CheatSheet de Etiquetas HTML.md",
-                "mode": "preview",
+                "file": "Sesión 9.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "CheatSheet de Etiquetas HTML"
+              "title": "Sesión 9"
             }
           },
           {
@@ -41,16 +41,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Referencias Útiles.md",
+                "file": "Semana 2.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "Referencias Útiles"
+              "title": "Semana 2"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -198,17 +198,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ddeafc520e19fad4",
+  "active": "87f372e5a87a6d2a",
   "lastOpenFiles": [
+    "Sesión 9.md",
+    "Sesión 11.md",
+    "Semana 4.md",
+    "Sesión 10.md",
+    "Semana 3.md",
+    "Sesión 8.md",
+    "Sesión 7.md",
+    "Sesión 1.md",
+    "Semana 2.md",
+    "Semana 1.md",
+    "Mapa Curricular.md",
     "Referencias Útiles.md",
     "CheatSheet de Etiquetas HTML.md",
-    "Sesión 7.md",
     "Sesión 5.md",
-    "Sesión 8.md",
-    "Semana 2.md",
-    "Sesión 1.md",
-    "Mapa Curricular.md",
-    "Semana 1.md",
     "Sesión 2.md",
     "Sesión 4.md",
     "Sesión 3.md",
