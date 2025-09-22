@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Semana 2.md",
-                "mode": "source",
+                "file": "Sesión 11.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Semana 2"
+              "title": "Sesión 11"
             }
           }
         ],
@@ -200,15 +200,15 @@
   },
   "active": "87f372e5a87a6d2a",
   "lastOpenFiles": [
+    "Semana 4.md",
+    "Semana 3.md",
+    "Semana 2.md",
     "Sesión 9.md",
     "Sesión 11.md",
-    "Semana 4.md",
     "Sesión 10.md",
-    "Semana 3.md",
     "Sesión 8.md",
     "Sesión 7.md",
     "Sesión 1.md",
-    "Semana 2.md",
     "Semana 1.md",
     "Mapa Curricular.md",
     "Referencias Útiles.md",
