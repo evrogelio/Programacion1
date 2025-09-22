@@ -2,6 +2,7 @@
   const slides: { href: string; title: string }[] = [
     { href: "/slides/semana-1", title: "Semana 1" },
     { href: "/slides/semana-2", title: "Semana 2" },
+    { href: "/slides/semana-3", title: "Semana 3" },
   ];
   const notasSugeridas = [
     { title: "Mapa Curricular", href: "/notas/mapa-curricular" },

@@ -1,0 +1,37 @@
+.borel {
+  font-family: "Borel", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.colorVerdeAmarillo {
+  color: green;
+  background-color: yellow;
+}
+.negritas {
+  font-weight: bold;
+}
+h1 {
+  color: magenta;
+  background-color: beige;
+  margin: 100px;
+  padding: 30px;
+  border: 2px solid red;
+  border-radius: 10px;
+  width: 500px;
+  height: 200px;
+}
+
+#tituloMenosEspecial {
+  color: blue;
+  background-color: green;
+}
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+}
