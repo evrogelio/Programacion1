@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sesión 11.md",
+                "file": "Mapa Curricular.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Sesión 11"
+              "title": "Mapa Curricular"
             }
           },
           {
@@ -41,16 +41,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sesión 11.md",
-                "mode": "preview",
+                "file": "Sesión 14.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Sesión 11"
+              "title": "Sesión 14"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -198,13 +197,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "87f372e5a87a6d2a",
+  "active": "5ba4fbc36213cc87",
   "lastOpenFiles": [
+    "Sesión 14.md",
     "Semana 4.md",
+    "Sesión 13.md",
+    "Sesión 11.md",
+    "Sesión 9.md",
+    "Sesión 12.md",
     "Semana 3.md",
     "Semana 2.md",
-    "Sesión 9.md",
-    "Sesión 11.md",
     "Sesión 10.md",
     "Sesión 8.md",
     "Sesión 7.md",
