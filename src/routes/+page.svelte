@@ -3,12 +3,14 @@
     { href: "/slides/semana-1", title: "Semana 1" },
     { href: "/slides/semana-2", title: "Semana 2" },
     { href: "/slides/semana-3", title: "Semana 3" },
+    { href: "/slides/semana-4", title: "Semana 4" },
   ];
   const notasSugeridas = [
     { title: "Mapa Curricular", href: "/notas/mapa-curricular" },
-    { title: "Referencias Útiles", href: "/notas/referencias-utiles" },
     { title: "Semana 1", href: "/notas/semana-1" },
     { title: "Semana 2", href: "/notas/semana-2" },
+    { title: "Semana 3", href: "/notas/semana-3" },
+    { title: "Semana 4", href: "/notas/semana-4" },
   ];
 </script>
 
