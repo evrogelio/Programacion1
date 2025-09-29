@@ -20,7 +20,7 @@
 </script>
 
 <svelte:head>
-  <title>LCT1 WebDev - Semana 3</title>
+  <title>LCT1 WebDev - Semana 4</title>
 </svelte:head>
 
 <div class="reveal">
