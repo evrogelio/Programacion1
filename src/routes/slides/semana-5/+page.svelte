@@ -147,5 +147,141 @@
         </ul>
       </section>
     </section>
+    <section>
+      <section>
+        <h2>Introducción a Flexbox</h2>
+        <p>Una forma moderna y flexible de organizar elementos en CSS.</p>
+      </section>
+
+      <section>
+        <h2>Problema</h2>
+        <p>
+          Antes de Flexbox se usaban <code>float</code> o
+          <code>inline-block</code>, pero eran difíciles de controlar.
+        </p>
+        <p><strong>Flexbox</strong> simplifica la alineación y distribución.</p>
+      </section>
+
+      <section>
+        <h2>Activar Flexbox</h2>
+        <pre><code class="css"
+            >.contenedor &#123;
+  display: flex;
+&#125;</code
+          ></pre>
+        <p>Todos los hijos directos se convierten en <em>flex items</em>.</p>
+      </section>
+
+      <section>
+        <h2>Dirección</h2>
+        <p>Propiedad <code>flex-direction</code>:</p>
+        <ul>
+          <li><code>row</code> (por defecto): izquierda a derecha</li>
+          <li><code>row-reverse</code>: derecha a izquierda</li>
+          <li><code>column</code>: arriba a abajo</li>
+          <li><code>column-reverse</code>: abajo a arriba</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Distribución horizontal</h2>
+        <p>Propiedad <code>justify-content</code>:</p>
+        <ul>
+          <li><code>flex-start</code> (por defecto)</li>
+          <li><code>center</code></li>
+          <li><code>flex-end</code></li>
+          <li><code>space-between</code></li>
+          <li><code>space-around</code></li>
+          <li><code>space-evenly</code></li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Alineación vertical</h2>
+        <p>Propiedad <code>align-items</code>:</p>
+        <ul>
+          <li><code>flex-start</code></li>
+          <li><code>center</code></li>
+          <li><code>flex-end</code></li>
+          <li><code>stretch</code> (por defecto)</li>
+          <li><code>baseline</code></li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Espacios entre items</h2>
+        <p>Propiedad <code>gap</code>:</p>
+        <pre><code class="css"
+            >.contenedor &#123;
+  display: flex;
+  gap: 20px;
+&#125;</code
+          ></pre>
+        <p><em>Más sencillo que usar margin</em></p>
+      </section>
+
+      <section>
+        <h2>Ejemplo: menú horizontal</h2>
+        <pre><code class="css"
+            >nav &#123;
+  display: flex;
+  justify-content: space-around;
+&#125;</code
+          ></pre>
+        <p><em>Los enlaces se reparten en todo el ancho</em></p>
+      </section>
+
+      <section>
+        <h2>Ejemplo: galería simple</h2>
+        <pre><code class="css"
+            >.galeria &#123;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+&#125;
+
+.galeria img &#123;
+  width: 150px;
+  height: 100px;
+&#125;</code
+          ></pre>
+        <p><em>Las imágenes se organizan en filas</em></p>
+      </section>
+
+      <section>
+        <h2>Actividad en clase</h2>
+        <ol>
+          <li>Crear un contenedor con 4 cajas dentro.</li>
+          <li>Organizarlas en fila con <code>flex-direction: row</code>.</li>
+          <li>Centrarlas horizontalmente con <code>justify-content</code>.</li>
+          <li>Centrarlas verticalmente con <code>align-items</code>.</li>
+          <li>Agregar espacio entre cajas con <code>gap</code>.</li>
+        </ol>
+      </section>
+
+      <section>
+        <h2>Errores comunes</h2>
+        <ul>
+          <li>Olvidar <code>display: flex</code> en el contenedor.</li>
+          <li>
+            Confundir <code>justify-content</code> (horizontal) con
+            <code>align-items</code> (vertical).
+          </li>
+          <li>
+            No usar <code>flex-wrap</code> y que los elementos se salgan de la pantalla.
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Reto adicional 🎯</h2>
+        <p>Haz una “tarjeta de perfil” con:</p>
+        <ul>
+          <li>Imagen a la izquierda</li>
+          <li>Texto (nombre y descripción) a la derecha</li>
+          <li>Usa <code>flex</code> para organizarlo</li>
+        </ul>
+      </section>
+    </section>
   </div>
 </div>
