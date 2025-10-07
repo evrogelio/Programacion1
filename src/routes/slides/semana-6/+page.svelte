@@ -139,5 +139,146 @@ console.log("Hola, " + nombre);
         <p>Observa cómo los valores cambian dinámicamente.</p>
       </section>
     </section>
+    <section>
+      <section>
+        <h2>Operadores aritméticos</h2>
+        <p>Sirven para realizar operaciones matemáticas.</p>
+        <table>
+          <thead>
+            <tr>
+              <th>Operador</th>
+              <th>Ejemplo</th>
+              <th>Resultado</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>+</td><td><code>5 + 3</code></td><td>8</td></tr>
+            <tr><td>-</td><td><code>10 - 4</code></td><td>6</td></tr>
+            <tr><td>*</td><td><code>2 * 3</code></td><td>6</td></tr>
+            <tr><td>/</td><td><code>8 / 2</code></td><td>4</td></tr>
+            <tr><td>%</td><td><code>7 % 3</code></td><td>1</td></tr>
+            <tr><td>**</td><td><code>2 ** 3</code></td><td>8</td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <!-- Slide 6 -->
+      <section>
+        <h2>Ejemplo aritmético</h2>
+        <pre><code class="language-js">
+let resultado = (10 + 2) * 3;
+console.log(resultado); // 36
+  </code></pre>
+        <p>
+          <strong>Ejercicio:</strong> cambia los números y predice el resultado antes
+          de ejecutar.
+        </p>
+      </section>
+
+      <!-- Slide 7 -->
+      <section>
+        <h2>Concatenación de texto</h2>
+        <p>El operador <code>+</code> también une cadenas.</p>
+        <pre><code class="language-js">
+let nombre = "María";
+let saludo = "Hola, " + nombre + "!";
+console.log(saludo);
+  </code></pre>
+        <p>
+          <strong>Atención:</strong> si mezclas texto y números, el resultado
+          será un <code>string</code>.
+        </p>
+      </section>
+
+      <!-- Slide 8 -->
+      <section>
+        <h2>Template strings</h2>
+        <p>
+          Las comillas invertidas <code>`</code> permiten incrustar variables fácilmente:
+        </p>
+        <pre><code class="language-js">
+let nombre = "María";
+let saludo = `Hola, \$&#123;nombre&#125;!`;
+console.log(saludo);
+  </code></pre>
+        <p>También permiten escribir texto multilínea sin concatenar.</p>
+      </section>
+
+      <!-- Slide 9 -->
+      <section>
+        <h2>Operadores de comparación</h2>
+        <p>
+          Comparan valores y devuelven <code>true</code> o <code>false</code>.
+        </p>
+        <ul>
+          <li><code>==</code> → igual (sin tipo)</li>
+          <li><code>===</code> → igual (con tipo)</li>
+          <li><code>!=</code> → distinto (sin tipo)</li>
+          <li><code>!==</code> → distinto (con tipo)</li>
+        </ul>
+        <pre><code class="language-js">
+5 == "5"   // true
+5 === "5"  // false
+  </code></pre>
+      </section>
+
+      <!-- Slide 10 -->
+      <section>
+        <h2>Comparaciones numéricas</h2>
+        <pre><code class="language-js">
+7 &gt; 3  
+2 &lt; 8  
+5 &gt;= 5  
+4 &lt;= 2
+        </code></pre>
+        <p>
+          <strong>Prueba:</strong> cambia los números y predice el resultado antes
+          de ejecutarlo.
+        </p>
+      </section>
+
+      <!-- Slide 11 -->
+      <section>
+        <h2>Operadores lógicos</h2>
+        <p>Permiten combinar condiciones:</p>
+        <ul>
+          <li><code>&amp;&amp;</code> → AND (todas deben ser verdaderas)</li>
+          <li><code>||</code> → OR (al menos una verdadera)</li>
+          <li><code>!</code> → NOT (invierte el valor)</li>
+        </ul>
+        <pre><code class="language-js">
+true && false 
+true || false  
+!true          
+  </code></pre>
+      </section>
+
+      <!-- Slide 12 -->
+      <section>
+        <h2>Ejemplo combinado</h2>
+        <pre><code class="language-js">
+let edad = 20;
+let tieneLicencia = true;
+
+let puedeConducir = edad >= 18 && tieneLicencia;
+console.log("¿Puede conducir?", puedeConducir);
+  </code></pre>
+        <p>
+          <strong>Discusión:</strong> ¿Qué pasa si una de las condiciones cambia
+          a <code>false</code>?
+        </p>
+      </section>
+
+      <!-- Slide 13 -->
+      <section>
+        <h2>Actividad práctica</h2>
+        <ol>
+          <li>Crear <code>operadores.js</code> y enlazarlo a un HTML.</li>
+          <li>Probar operaciones matemáticas y comparaciones.</li>
+          <li>Usar operadores lógicos con distintas combinaciones.</li>
+          <li>Mostrar mensajes usando <em>template strings</em>.</li>
+        </ol>
+      </section>
+    </section>
   </div>
 </div>
