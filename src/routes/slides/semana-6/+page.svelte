@@ -279,6 +279,169 @@ console.log("¿Puede conducir?", puedeConducir);
           <li>Mostrar mensajes usando <em>template strings</em>.</li>
         </ol>
       </section>
+      <section>
+        <!-- Slide 1 -->
+        <section>
+          <h1>Funciones simples en JavaScript</h1>
+          <p>
+            Organizar el código, evitar repeticiones y hacerlo más fácil de
+            mantener.
+          </p>
+        </section>
+
+        <!-- Slide 2 -->
+        <section>
+          <h2>¿Qué es una función?</h2>
+          <ul>
+            <li>Un bloque de código que realiza una tarea específica.</li>
+            <li>Se puede ejecutar varias veces cuando se necesite.</li>
+            <li>Permite reutilizar y estructurar mejor el código.</li>
+          </ul>
+          <pre><code class="language-js">
+function saludar() &#123;
+  console.log(&quot;Hola, bienvenido al curso!&quot;);
+&#125;
+
+saludar(); // Llamada a la función
+  </code></pre>
+        </section>
+
+        <!-- Slide 3 -->
+        <section>
+          <h2>Partes de una función</h2>
+          <ol>
+            <li><code>function</code> → palabra clave.</li>
+            <li><strong>Nombre</strong> → describe su propósito.</li>
+            <li><code>()</code> → paréntesis para parámetros.</li>
+            <li><code>&#123;&#125;</code> → bloque con las instrucciones.</li>
+          </ol>
+          <pre><code class="language-js">
+function mostrarMensaje() &#123;
+  console.log(&quot;Esto es una función&quot;);
+&#125;
+  </code></pre>
+        </section>
+
+        <!-- Slide 4 -->
+        <section>
+          <h2>Parámetros y argumentos</h2>
+          <p>Permiten pasar información a la función.</p>
+          <pre><code class="language-js">
+function saludar(nombre) &#123;
+  console.log(`Hola, &#36;&#123;nombre&#125;!`);
+&#125;
+
+saludar(&quot;Lucía&quot;); // &quot;Lucía&quot; es el argumento
+  </code></pre>
+          <p>
+            <strong>Ejercicio:</strong> Cambia el nombre y observa el resultado.
+          </p>
+        </section>
+
+        <!-- Slide 5 -->
+        <section>
+          <h2>Varios parámetros</h2>
+          <pre><code class="language-js">
+function sumar(a, b) &#123;
+  console.log(a + b);
+&#125;
+
+sumar(3, 4); // 7
+  </code></pre>
+          <p>
+            <strong>Pregunta:</strong> ¿Qué pasa si llamas <code>sumar(3)</code>
+            sin el segundo número?
+          </p>
+        </section>
+
+        <!-- Slide 6 -->
+        <section>
+          <h2>Return: devolver un valor</h2>
+          <p>
+            Las funciones pueden devolver resultados con <code>return</code>.
+          </p>
+          <pre><code class="language-js">
+function multiplicar(x, y) &#123;
+  return x * y;
+&#125;
+
+let resultado = multiplicar(5, 2);
+console.log(resultado); // 10
+  </code></pre>
+          <p>
+            Si no hay <code>return</code>, la función devuelve
+            <code>undefined</code>.
+          </p>
+        </section>
+
+        <!-- Slide 7 -->
+        <section>
+          <h2>Funciones como expresiones</h2>
+          <p>También puedes guardar funciones dentro de variables.</p>
+          <pre><code class="language-js">
+const restar = function(a, b) &#123;
+  return a - b;
+&#125;;
+
+console.log(restar(10, 4)); // 6
+  </code></pre>
+        </section>
+
+        <!-- Slide 8 -->
+        <section>
+          <h2>Funciones flecha (arrow functions)</h2>
+          <p>Una forma más corta de escribir funciones.</p>
+          <pre><code class="language-js">
+const dividir = (a, b) =&gt; a / b;
+console.log(dividir(10, 2)); // 5
+  </code></pre>
+          <p>
+            <strong>Nota:</strong> No necesitas <code>return</code> si la función
+            tiene una sola línea.
+          </p>
+        </section>
+
+        <!-- Slide 9 -->
+        <section>
+          <h2>Comparando estilos</h2>
+          <pre><code class="language-js">
+// Tradicional
+function sumar(a, b) &#123;
+  return a + b;
+&#125;
+
+// Flecha
+const sumar = (a, b) =&gt; a + b;
+  </code></pre>
+        </section>
+
+        <!-- Slide 10 -->
+        <section>
+          <h2>Actividad práctica</h2>
+          <ol>
+            <li>Crear <code>funciones.js</code> enlazado a un HTML.</li>
+            <li>Escribir una función sin parámetros que muestre un mensaje.</li>
+            <li>
+              Hacer una función que sume dos números y devuelva el resultado.
+            </li>
+            <li>Reescribirla usando una función flecha.</li>
+            <li>Mostrar los resultados en la consola.</li>
+          </ol>
+        </section>
+
+        <!-- Slide 11 -->
+        <section>
+          <h2>Conceptos clave</h2>
+          <ul>
+            <li>Una función agrupa código reutilizable.</li>
+            <li>Los parámetros permiten pasar valores externos.</li>
+            <li><code>return</code> devuelve un resultado al programa.</li>
+            <li>
+              Las funciones flecha son más breves, ideales para tareas simples.
+            </li>
+          </ul>
+        </section>
+      </section>
     </section>
   </div>
 </div>
