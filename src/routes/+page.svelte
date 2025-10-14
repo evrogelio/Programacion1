@@ -6,6 +6,7 @@
     { href: "/slides/semana-4", title: "Semana 4" },
     { href: "/slides/semana-5", title: "Semana 5" },
     { href: "/slides/semana-6", title: "Semana 6" },
+    { href: "/slides/semana-7", title: "Semana 7" },
   ];
   const notasSugeridas = [
     { title: "Mapa Curricular", href: "/notas/mapa-curricular" },
