@@ -206,11 +206,13 @@ if (edad &gt;= 18 &amp;&amp; licencia) &#123;
         <p>Repetir código sin escribirlo una y otra vez.</p>
       </section>
 
-<!-- Slide 2 -->
-<section>
-  <h2>¿Qué es un ciclo?</h2>
-  <p>Un ciclo (o bucle) permite ejecutar un bloque de código varias veces.</p>
-  <pre><code class="language-js">
+      <!-- Slide 2 -->
+      <section>
+        <h2>¿Qué es un ciclo?</h2>
+        <p>
+          Un ciclo (o bucle) permite ejecutar un bloque de código varias veces.
+        </p>
+        <pre><code class="language-js">
 let contador = 1;
 
 while (contador &lt;= 5) &#123;
@@ -218,14 +220,14 @@ while (contador &lt;= 5) &#123;
   contador = contador + 1;
 &#125;
   </code></pre>
-  <p>El bloque se repite mientras la condición sea <code>true</code>.</p>
-</section>
+        <p>El bloque se repite mientras la condición sea <code>true</code>.</p>
+      </section>
 
-<!-- Slide 3 -->
-<section>
-  <h2>Ciclo while</h2>
-  <p>Evalúa la condición antes de cada repetición.</p>
-  <pre><code class="language-js">
+      <!-- Slide 3 -->
+      <section>
+        <h2>Ciclo while</h2>
+        <p>Evalúa la condición antes de cada repetición.</p>
+        <pre><code class="language-js">
 let numero = 1;
 
 while (numero &lt;= 3) &#123;
@@ -233,59 +235,63 @@ while (numero &lt;= 3) &#123;
   numero++;
 &#125;
   </code></pre>
-  <p>Si la condición nunca deja de cumplirse, el ciclo se vuelve infinito.</p>
-</section>
+        <p>
+          Si la condición nunca deja de cumplirse, el ciclo se vuelve infinito.
+        </p>
+      </section>
 
-<!-- Slide 4 -->
-<section>
-  <h2>Ciclo for</h2>
-  <p>Ideal cuando sabes cuántas veces debe repetirse el código.</p>
-  <pre><code class="language-js">
+      <!-- Slide 4 -->
+      <section>
+        <h2>Ciclo for</h2>
+        <p>Ideal cuando sabes cuántas veces debe repetirse el código.</p>
+        <pre><code class="language-js">
 for (let i = 1; i &lt;= 5; i++) &#123;
   console.log("Iteración " + i);
 &#125;
   </code></pre>
-  <p>Incluye en una sola línea el inicio, la condición y la actualización.</p>
-</section>
+        <p>
+          Incluye en una sola línea el inicio, la condición y la actualización.
+        </p>
+      </section>
 
-<!-- Slide 5 -->
-<section>
-  <h2>¿Cómo funciona el for?</h2>
-  <ol>
-    <li><code>let i = 1</code> → se ejecuta una vez (inicio)</li>
-    <li><code>i &lt;= 5</code> → se evalúa antes de cada vuelta</li>
-    <li><code>i++</code> → se ejecuta al final de cada repetición</li>
-  </ol>
-</section>
+      <!-- Slide 5 -->
+      <section>
+        <h2>¿Cómo funciona el for?</h2>
+        <ol>
+          <li><code>let i = 1</code> → se ejecuta una vez (inicio)</li>
+          <li><code>i &lt;= 5</code> → se evalúa antes de cada vuelta</li>
+          <li><code>i++</code> → se ejecuta al final de cada repetición</li>
+        </ol>
+      </section>
 
-<!-- Slide 6 -->
-<section>
-  <h2>Comparando while y for</h2>
-  <table>
-    <thead>
-      <tr>
-        <th>Situación</th>
-        <th>Recomendado</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>No sabes cuántas veces se repetirá</td>
-        <td><code>while</code></td>
-      </tr>
-      <tr>
-        <td>Sabes cuántas veces se repetirá</td>
-        <td><code>for</code></td>
-      </tr>
-    </tbody>
-  </table>
-</section>
+      <!-- Slide 6 -->
+      <section>
+        <h2>Comparando while y for</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Situación</th>
+              <th>Recomendado</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>No sabes cuántas veces se repetirá</td>
+              <td><code>while</code></td>
+            </tr>
+            <tr>
+              <td>Sabes cuántas veces se repetirá</td>
+              <td><code>for</code></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
 
-<!-- Slide 7 -->
-<section>
-  <h2>Usar variables acumuladoras</h2>
-  <p>Podemos acumular valores dentro del ciclo.</p>
-  <pre><code class="language-js">
+      <!-- Slide 7 -->
+      <section>
+        <h2>Usar variables acumuladoras</h2>
+        <p>Podemos acumular valores dentro del ciclo.</p>
+        <pre><code class="language-js">
 let suma = 0;
 
 for (let i = 1; i &lt;= 5; i++) &#123;
@@ -294,13 +300,15 @@ for (let i = 1; i &lt;= 5; i++) &#123;
 
 console.log("La suma total es: " + suma);
   </code></pre>
-</section>
+      </section>
 
-<!-- Slide 8 -->
-<section>
-  <h2>Detener o saltar ciclos</h2>
-  <p><code>break</code> sale del ciclo, <code>continue</code> salta una vuelta.</p>
-  <pre><code class="language-js">
+      <!-- Slide 8 -->
+      <section>
+        <h2>Detener o saltar ciclos</h2>
+        <p>
+          <code>break</code> sale del ciclo, <code>continue</code> salta una vuelta.
+        </p>
+        <pre><code class="language-js">
 for (let i = 1; i &lt;= 5; i++) &#123;
   if (i === 3) &#123;
     continue; // salta el número 3
@@ -308,39 +316,227 @@ for (let i = 1; i &lt;= 5; i++) &#123;
   console.log(i);
 &#125;
   </code></pre>
-</section>
+      </section>
 
-<!-- Slide 9 -->
-<section>
-  <h2>Ejercicio</h2>
-  <ul>
-    <li>Escribe un ciclo <code>for</code> que muestre los números del 1 al 10.</li>
-    <li>Escribe un ciclo <code>while</code> que cuente de 5 hacia 1.</li>
-    <li>Crea un programa que sume los números del 1 al 100.</li>
-  </ul>
-  <p>Muestra los resultados con <code>console.log()</code>.</p>
-</section>
+      <!-- Slide 9 -->
+      <section>
+        <h2>Ejercicio</h2>
+        <ul>
+          <li>
+            Escribe un ciclo <code>for</code> que muestre los números del 1 al 10.
+          </li>
+          <li>Escribe un ciclo <code>while</code> que cuente de 5 hacia 1.</li>
+          <li>Crea un programa que sume los números del 1 al 100.</li>
+        </ul>
+        <p>Muestra los resultados con <code>console.log()</code>.</p>
+      </section>
 
-<!-- Slide 10 -->
-<section>
-  <h2>Reto adicional</h2>
-  <ul>
-    <li>Pide un número con <code>prompt()</code>.</li>
-    <li>Haz que el programa muestre su tabla de multiplicar usando un ciclo <code>for</code>.</li>
-    <li>Ejemplo: si el usuario escribe 3, debe mostrar 3×1 hasta 3×10.</li>
-  </ul>
-</section>
+      <!-- Slide 10 -->
+      <section>
+        <h2>Reto adicional</h2>
+        <ul>
+          <li>Pide un número con <code>prompt()</code>.</li>
+          <li>
+            Haz que el programa muestre su tabla de multiplicar usando un ciclo <code
+              >for</code
+            >.
+          </li>
+          <li>
+            Ejemplo: si el usuario escribe 3, debe mostrar 3×1 hasta 3×10.
+          </li>
+        </ul>
+      </section>
 
-<!-- Slide 11 -->
-<section>
-  <h2>Conceptos clave</h2>
-  <ul>
-    <li>Los ciclos repiten código mientras una condición sea verdadera.</li>
-    <li><code>for</code> es más compacto que <code>while</code> para repeticiones conocidas.</li>
-    <li><code>break</code> detiene el ciclo antes de tiempo.</li>
-    <li><code>continue</code> salta una vuelta sin detener el ciclo.</li>
-  </ul>
-</section>
+      <!-- Slide 11 -->
+      <section>
+        <h2>Conceptos clave</h2>
+        <ul>
+          <li>
+            Los ciclos repiten código mientras una condición sea verdadera.
+          </li>
+          <li>
+            <code>for</code> es más compacto que <code>while</code> para repeticiones
+            conocidas.
+          </li>
+          <li><code>break</code> detiene el ciclo antes de tiempo.</li>
+          <li><code>continue</code> salta una vuelta sin detener el ciclo.</li>
+        </ul>
+      </section>
+    </section>
+    <section>
+      <!-- Slide 1 -->
+      <section>
+        <h1>Introducción al DOM</h1>
+        <p>
+          Cómo JavaScript puede leer y modificar el contenido de una página web.
+        </p>
+      </section>
+
+      <!-- Slide 2 -->
+      <section>
+        <h2>¿Qué es el DOM?</h2>
+        <p>
+          El <strong>DOM (Document Object Model)</strong> es una representación del
+          HTML en forma de árbol.
+        </p>
+        <pre><code class="language-text">
+HTML
+ └── body
+      ├── h1
+      └── p
+  </code></pre>
+        <p>
+          JavaScript puede acceder a esos elementos, cambiarlos o reaccionar a
+          eventos.
+        </p>
+      </section>
+
+      <!-- Slide 3 -->
+      <section>
+        <h2>Acceder a un elemento</h2>
+        <p>Podemos obtener una etiqueta del HTML usando su <code>id</code>.</p>
+        <pre><code class="language-html">
+&lt;p id=&quot;mensaje&quot;&gt;Texto original&lt;/p&gt;
+
+&lt;script&gt;
+  const parrafo = document.getElementById(&quot;mensaje&quot;);
+  console.log(parrafo);
+&lt;/script&gt;
+  </code></pre>
+        <p><strong>document</strong> representa toda la página.</p>
+      </section>
+
+      <!-- Slide 4 -->
+      <section>
+        <h2>Cambiar el texto de un elemento</h2>
+        <pre><code class="language-html">
+&lt;p id=&quot;mensaje&quot;&gt;Texto original&lt;/p&gt;
+
+&lt;script&gt;
+  const p = document.getElementById(&quot;mensaje&quot;);
+  p.textContent = &quot;Nuevo texto desde JavaScript&quot;;
+&lt;/script&gt;
+  </code></pre>
+        <p>
+          <code>textContent</code> cambia solo el texto visible del elemento.
+        </p>
+      </section>
+
+      <!-- Slide 5 -->
+      <section>
+        <h2>Cambiar estilos desde JavaScript</h2>
+        <pre><code class="language-html">
+&lt;p id=&quot;mensaje&quot;&gt;Hola mundo&lt;/p&gt;
+
+&lt;script&gt;
+  const p = document.getElementById(&quot;mensaje&quot;);
+  p.style.color = &quot;blue&quot;;
+  p.style.fontSize = &quot;20px&quot;;
+&lt;/script&gt;
+  </code></pre>
+        <p>
+          Cada elemento tiene una propiedad <code>style</code> para modificar su
+          apariencia.
+        </p>
+      </section>
+
+      <!-- Slide 6 -->
+      <section>
+        <h2>Usar eventos con el DOM</h2>
+        <p>Podemos ejecutar funciones cuando ocurre un evento, como un clic.</p>
+        <pre><code class="language-html">
+&lt;button onclick=&quot;cambiarTexto()&quot;&gt;Haz clic&lt;/button&gt;
+&lt;p id=&quot;mensaje&quot;&gt;Texto inicial&lt;/p&gt;
+
+&lt;script&gt;
+  function cambiarTexto() &#123;
+    const parrafo = document.getElementById(&quot;mensaje&quot;);
+    parrafo.textContent = &quot;Has hecho clic en el botón&quot;;
+  &#125;
+&lt;/script&gt;
+  </code></pre>
+      </section>
+
+      <!-- Slide 7 -->
+      <section>
+        <h2>Otros métodos para seleccionar</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Método</th>
+              <th>Descripción</th>
+              <th>Ejemplo</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><code>getElementsByClassName()</code></td>
+              <td>Busca por clase</td>
+              <td
+                ><code>document.getElementsByClassName(&quot;item&quot;)</code
+                ></td
+              >
+            </tr>
+            <tr>
+              <td><code>getElementsByTagName()</code></td>
+              <td>Busca por etiqueta</td>
+              <td><code>document.getElementsByTagName(&quot;p&quot;)</code></td>
+            </tr>
+            <tr>
+              <td><code>querySelector()</code></td>
+              <td>Usa un selector CSS</td>
+              <td><code>document.querySelector(&quot;#mensaje&quot;)</code></td>
+            </tr>
+            <tr>
+              <td><code>querySelectorAll()</code></td>
+              <td>Todos los que coincidan</td>
+              <td><code>document.querySelectorAll(&quot;.item&quot;)</code></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <!-- Slide 8 -->
+      <section>
+        <h2>Ejercicio guiado</h2>
+        <ul>
+          <li>Crea un archivo <code>dom.html</code>.</li>
+          <li>Agrega un encabezado, un párrafo y un botón.</li>
+          <li>
+            Cuando se haga clic en el botón:
+            <ul>
+              <li>Cambia el texto del párrafo.</li>
+              <li>Cambia el color del texto.</li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Slide 9 -->
+      <section>
+        <h2>Reto adicional</h2>
+        <ul>
+          <li>Agrega un segundo botón.</li>
+          <li>Al hacer clic, cambia el color de fondo de la página.</li>
+          <li>
+            Muestra un mensaje con <code>alert()</code> indicando el nuevo color.
+          </li>
+        </ul>
+      </section>
+
+      <!-- Slide 10 -->
+      <section>
+        <h2>Conceptos clave</h2>
+        <ul>
+          <li>El DOM representa la página HTML como objetos.</li>
+          <li><code>document.getElementById()</code> obtiene un elemento.</li>
+          <li>
+            <code>textContent</code> y <code>innerHTML</code> cambian el contenido.
+          </li>
+          <li><code>style</code> modifica la apariencia visual.</li>
+          <li>Los eventos permiten responder a interacciones del usuario.</li>
+        </ul>
+      </section>
     </section>
   </div>
 </div>
